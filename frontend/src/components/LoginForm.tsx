@@ -1,8 +1,8 @@
 "use client"
-import {Button} from "src/components/ui/button"
-import {Input} from "src/components/ui/input";
-import {Checkbox} from "src/components/ui/checkbox";
-import {Label} from "src/components/ui/label";
+import {Button} from "@/components/ui/button"
+import {Input} from "@/components/ui/input";
+import {Checkbox} from "@/components/ui/checkbox";
+import {Label} from "@/components/ui/label";
 import {useState} from "react";
 
 
@@ -82,12 +82,7 @@ const LoginForm = () => {
                     </Button>
                 </div>
 
-                <div className="w-[177.76px] h-[50.22px] relative">
-                    <div className="left-0 top-[14px]  absolute justify-start text-[#848fac] text-sm font-normal font-['Commissioner']">A
-                        subsidiary of Trivera
-                    </div>
-                    <img className="w-[79.76px] h-[50.22px] left-[110px] top-0 absolute" src="/Trivera logomark transparent bg-44 1.svg"/>
-                </div>
+
             </div>
         </>
     );

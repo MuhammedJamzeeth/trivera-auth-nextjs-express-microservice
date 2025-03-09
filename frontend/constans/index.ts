@@ -60,3 +60,23 @@ export const LoginImageSideData = [
         "We provide efficient logistics services to get items delivered within 24 hours. ",
     },
   ];
+
+export const registerData = [
+    {
+        logo: "/svg/Trivemart icon-.svg",
+        nameLogo: "/svg/Trivemart heading.svg",
+        color: "#FF6C2B"
+
+    },
+    {
+        logo: "/svg/Trivemart icon-.svg",
+        nameLogo: "/svg/Trivemart heading.svg",
+        color:"#8A608B"
+
+    },
+    {
+        logo: "/svg/Trivemart icon-.svg",
+        nameLogo: "/svg/Trivexpress heading.svg",
+        color: "#05918A"
+    }
+]

@@ -1,6 +1,7 @@
 import OnBoarding from "@/components/OnBoarding";
 import {LoginImageSideData} from "../../../../../../constans";
 import {LOGINPAGES} from "@/types/index.types";
+import LoginForm from "@/components/LoginForm";
 
 
 const page = () => {
@@ -8,7 +9,7 @@ const page = () => {
 
     return (
         <div>
-            <div className="flex items-center justify-between h-screen">
+            <div className="flex items-center flex- h-screen space-x-12 bg-white">
                 <OnBoarding type={LOGINPAGES.TRIVEMART} image={loginData.image}
                             amount={loginData.card.amount}
                             icon={loginData.card.icon}
@@ -25,8 +26,8 @@ const page = () => {
 
                                     </div>}
                 />
-                <div>
-                    dummy
+                <div className="flex-1 h-full flex justify-center items-center bg-white">
+                    <LoginForm />
                 </div>
             </div>
         </div>

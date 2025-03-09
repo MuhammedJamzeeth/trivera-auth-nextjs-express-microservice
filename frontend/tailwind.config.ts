@@ -62,6 +62,7 @@ export default {
 			commissionr: ["Commissioner", "var(--font-commissioner-bold)"],
 			Plus_Jakarta_Sans: ["Plus Jakarta Sans", "var(--font-plus-jakarta-sans)"],
 			IBM_Plex_Sans: ["IBM Plex Sans", "var(--font-ibm-plex-sans)"],
+			  urbanist: ["Urbanist", "var(--font-urbanist)"],
 		}
   	}
   },
