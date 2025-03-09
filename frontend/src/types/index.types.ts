@@ -1,0 +1,5 @@
+export enum LOGINPAGES {
+    TRIVEMART,
+    TRIVESTORE,
+    TRIVEXPRESS
+}
