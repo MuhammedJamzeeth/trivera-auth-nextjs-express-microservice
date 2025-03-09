@@ -1,3 +1,4 @@
+import { IBM_Plex_Sans } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -9,9 +10,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        backgroundColor: "#FBF8F6",
       },
+      fontFamily:{
+          commissionr: ["Commissioner", "var(--font-commissioner-bold)"],
+          Plus_Jakarta_Sans: ["Plus Jakarta Sans", "var(--font-plus-jakarta-sans)"],
+          IBM_Plex_Sans: ["IBM Plex Sans", "var(--font-ibm-plex-sans)"],
+      }
     },
   },
   plugins: [],
