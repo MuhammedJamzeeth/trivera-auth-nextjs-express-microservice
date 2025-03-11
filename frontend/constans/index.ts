@@ -21,6 +21,26 @@ export const LoginActionSelectors = [
     }
 ]
 
+export const RegisterActionSelectors = [
+    {
+        title:"Trivemart",
+        icon: "/Trivemart1.svg",
+        link: "register/trivemart",
+    },
+
+    {
+        title:"Trivestore",
+        icon: "Trivestore.svg",
+        link: "register/trivestore",
+    },
+
+    {
+        title:"Trivexpress",
+        icon: "Trivexpress.svg",
+        link: "register/trivexpress",
+    }
+]
+
 export const LoginImageSideData = [
     {
       type: "Trivemart",
