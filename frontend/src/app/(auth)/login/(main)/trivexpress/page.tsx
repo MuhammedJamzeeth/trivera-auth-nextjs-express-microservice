@@ -1,6 +1,10 @@
 import {LoginImageSideData} from "../../../../../../constans";
 import OnBoarding from "@/components/OnBoarding";
 import {LOGINPAGES} from "@/types/index.types";
+import LoginForm from "@/components/LoginForm";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 
 const page = () => {
@@ -19,12 +23,17 @@ const page = () => {
                                     <span className=" text-[#05918A] font-bold"> + 1,0% </span>
                                     <span className="text-[#747681] text-sm">from last week</span>
 
-                                </div>}/>
-                <div>
-                    dummy
+                                </div>}
+                />
+                {/*Login Form Component*/}
+                <div className="flex-1 h-full flex justify-center items-center bg-white">
+                    <LoginForm
+                        logo={<Image src="/svg/Trivexpress white icon.svg" alt="icon" width={91} height={57.296}/>}
+                        nameLogo={<Image src="/png/Trivexpress-heading.png" className="mt-3" alt="Trivemart heading.svg" width={174} height={45}/>}
+                        link={<Link href="/register/trivexpress" className="text-[#05918A]" >Register </Link>}
+                        type={LOGINPAGES.TRIVEXPRESS}
+                    />
                 </div>
-
-
             </div>
         </div>
     )
