@@ -1,6 +1,10 @@
 import OnBoarding from "@/components/OnBoarding";
 import {LoginImageSideData} from "../../../../../../constans";
 import {LOGINPAGES} from "@/types/index.types";
+import LoginForm from "@/components/LoginForm";
+import Link from "next/link";
+import React from "react";
+import Image from "next/image";
 
 
 const page = () => {
@@ -25,8 +29,14 @@ const page = () => {
 
                                     </div>}
                 />
-                <div>
-                    dummy
+                {/*Login Form Component*/}
+                <div className="flex-1 h-full flex justify-center items-center bg-white">
+                    <LoginForm
+                        logo={<Image src="/svg/Trivemart icon-.svg" alt="icon" width={91} height={57.296}/>}
+                        nameLogo={<Image src="/svg/Trivemart no bg-38 1.svg" alt="Trivemart heading.svg" width={174} height={47}/>}
+                        link={<Link href="/register/trivemart" className="text-[#FF6C2B]">Register </Link>}
+                        type={LOGINPAGES.TRIVEMART}
+                    />
                 </div>
             </div>
         </div>
